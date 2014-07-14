@@ -16,7 +16,7 @@ containSubset.addMethods(chai);
 
 spec.js
 ```js
-var testedObject = {
+var obj = {
 		a: 'b',
 		c: 'd',
 		e: {
@@ -27,7 +27,7 @@ var testedObject = {
 		}
 	};
 	
-expect(testedObject).to.containSubset({
+expect(obj).to.containSubset({
 			e: {
 				foo: 'bar',
 				baz: {
