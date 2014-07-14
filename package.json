@@ -4,7 +4,7 @@
   "description": "Object properties matcher for Chai",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha tests"
+    "test": "node node_modules/mocha/bin/mocha test"
   },
   "repository": {
     "type": "git",
