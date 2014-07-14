@@ -1,0 +1,30 @@
+{
+  "name": "chai-subset",
+  "version": "0.1.0",
+  "description": "Object properties matcher for Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-conomic/chai-subset.git"
+  },
+  "keywords": [
+    "chai",
+    "subset",
+    "contains",
+    "plugin",
+    "containSubset"
+  ],
+  "author": "Andrii Shumada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e-conomic/chai-subset/issues"
+  },
+  "homepage": "https://github.com/e-conomic/chai-subset",
+  "devDependencies": {
+    "mocha": "^1.20.1",
+    "chai": "1.x"
+  }
+}
