@@ -9,9 +9,7 @@ Usage
 
 common.js
 ```js
-var containSubset = require("../lib/chai-subset");
-global.expect = chai.expect; //optional
-containSubset.addMethods(chai);
+require('chai-subset').addMethods(chai);
 ```
 
 spec.js
