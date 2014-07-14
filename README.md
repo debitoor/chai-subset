@@ -1,4 +1,4 @@
-chai-subset
+chai-subset [![Build Status](https://travis-ci.org/e-conomic/chai-subset.svg?branch=master)](https://travis-ci.org/e-conomic/chai-subset)
 ===========
 
 "containSubset" object properties matcher for Chai
