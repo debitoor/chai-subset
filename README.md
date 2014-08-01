@@ -3,34 +3,40 @@ chai-subset [![Build Status](https://travis-ci.org/e-conomic/chai-subset.svg?bra
 
 "containSubset" object properties matcher for Chai
 
+Installation
+===========
+
+`npm install --save-dev chai-subset`
 
 Usage
 =====
 
 common.js
 ```js
-require('chai-subset').addMethods(chai);
+var chai = require('chai');
+var chaiSubset = require('chai-subset');
+chai.use(chaiSubset);
 ```
 
 spec.js
 ```js
 var obj = {
-		a: 'b',
-		c: 'd',
-		e: {
-			foo: 'bar',
-			baz: {
-				qux: 'quux'
-			}
+	a: 'b',
+	c: 'd',
+	e: {
+		foo: 'bar',
+		baz: {
+			qux: 'quux'
 		}
-	};
+	}
+};
 	
 expect(obj).to.containSubset({
-			e: {
-				foo: 'bar',
-				baz: {
-					qux: 'quux'
-				}
-			}
-		});
+	e: {
+		foo: 'bar',
+		baz: {
+			qux: 'quux'
+		}
+	}
+});
 ```
