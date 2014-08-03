@@ -1,6 +1,6 @@
 {
   "name": "chai-subset",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "devDependencies": {
     "mocha": "^1.20.1",
     "chai": "1.x"
+  },
+  "dependencies": {
+    "circular-json": "^0.1.6"
   }
 }
