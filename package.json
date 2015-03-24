@@ -1,6 +1,6 @@
 {
   "name": "chai-subset",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
@@ -24,10 +24,8 @@
   },
   "homepage": "https://github.com/e-conomic/chai-subset",
   "devDependencies": {
-    "mocha": "^1.20.1",
-    "chai": "1.x"
-  },
-  "dependencies": {
-    "circular-json": "^0.1.6"
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "mocha-jshint": "^1.0.0"
   }
 }
