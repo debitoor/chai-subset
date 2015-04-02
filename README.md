@@ -18,7 +18,7 @@ var chaiSubset = require('chai-subset');
 chai.use(chaiSubset);
 ```
 
-spec.js
+in your spec.js
 ```js
 var obj = {
 	a: 'b',
@@ -32,11 +32,43 @@ var obj = {
 };
 	
 expect(obj).to.containSubset({
+	a: 'b',
 	e: {
-		foo: 'bar',
 		baz: {
 			qux: 'quux'
 		}
 	}
 });
+//or with 'not'
+expect(obj).to.not.containSubset({
+	g: 'whatever'
+});
 ```
+
+Also works good with arrays and `should` interface
+```js
+var list = [{a: 'a', b: 'b'}, {v: 'f', d: {z: g}}];
+
+list.should.containSubset([{a:'a'}]); //Assertion error is not thrown
+list.should.containSubset([{a:'a',  b: 'b'}}]); //Assertion error is not thrown
+
+list.should.containSubset([{a:'a', b: 'bd'}]); 
+/*throws
+AssertionError: expected
+[
+    {
+        "a": "a",
+        "b": "b"
+    },
+    {
+        "v": "f",
+        "d": {
+            "z": "g"
+        }
+    }
+]
+to contain subset 
+[ { a: 'a', b: 'bd' } ]
+*/
+```
+
