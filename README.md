@@ -1,4 +1,4 @@
-chai-subset [![npm version](https://img.shields.io/npm/v/chai-subset.svg)](https://www.npmjs.com/package/chai-subset) [![Build Status](https://travis-ci.org/debitoor/chai-subset.svg?branch=master)](https://travis-ci.org/debitoor/chai-subset) [![devDependency Status](https://david-dm.org/debitoor/chai-subset/dev-status.svg)](https://david-dm.org/debitoor/chai-subset#info=devDependencies)
+chai-subset [![npm version](https://img.shields.io/npm/v/chai-subset.svg)](https://www.npmjs.com/package/chai-subset) [![Build Status](https://travis-ci.org/debitoor/chai-subset.svg?branch=master)](https://travis-ci.org/debitoor/chai-subset) [![devDependency Status](https://david-dm.org/debitoor/chai-subset/dev-status.svg)](https://david-dm.org/debitoor/chai-subset#info=devDependencies) [![Coverage Status](https://coveralls.io/repos/debitoor/chai-subset/badge.svg?branch=coveralls&service=github)](https://coveralls.io/github/debitoor/chai-subset?branch=coveralls)
 ===========
 
 "containSubset" object properties matcher for [Chai](http://chaijs.com/) assertion library
