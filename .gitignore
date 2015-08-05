@@ -3,3 +3,4 @@ pids
 *.seed
 node_modules
 .idea
+coverage
