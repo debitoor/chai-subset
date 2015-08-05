@@ -4,7 +4,7 @@
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha test"
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +28,8 @@
   "homepage": "https://github.com/debitoor/chai-subset",
   "devDependencies": {
     "chai": "^2.1.2",
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.1",
     "mocha-jshint": "^2.0.2"
   }
