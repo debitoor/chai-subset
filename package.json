@@ -1,7 +1,7 @@
 {
-  "name": "chai-subset",
-  "version": "1.0.1",
-  "description": "Object properties matcher for Chai",
+  "name": "signavio-chai-subset",
+  "version": "1.1.0",
+  "description": "(Fork by Signavio GmbH) Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
     "test": "istanbul cover _mocha -- test && cat ./coverage/lcov.info | coveralls"
