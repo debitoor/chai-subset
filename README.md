@@ -50,7 +50,7 @@ Also works good with arrays and `should` interface
 var list = [{a: 'a', b: 'b'}, {v: 'f', d: {z: 'g'}}];
 
 list.should.containSubset([{a:'a'}]); //Assertion error is not thrown
-list.should.containSubset([{a:'a',  b: 'b'}}]); //Assertion error is not thrown
+list.should.containSubset([{a:'a',  b: 'b'}]); //Assertion error is not thrown
 
 list.should.containSubset([{a:'a', b: 'bd'}]); 
 /*throws
