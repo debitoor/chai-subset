@@ -30,7 +30,6 @@
     "chai": "^3.2.0",
     "coveralls": "^2.11.3",
     "istanbul": "^0.3.17",
-    "jscs": "^1.13.1",
     "mocha": "^2.2.1",
     "mocha-eslint": "^1.0.0",
     "mocha-jscs": "^1.2.0"
