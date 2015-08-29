@@ -120,6 +120,20 @@ describe('circular objects', function() {
 	});
 });
 
+describe('comparison of non objects', function () {
+	it('should fail if actual subset is null', function () {
+		expect(null).to.not.containSubset({a: 1});
+	});
+
+	it('should fail if expected subset is not a object', function () {
+		expect({a: 1}).to.not.containSubset(null);
+	});
+
+	it('should not fail for same non-object (string) variables', function () {
+		expect('string').to.containSubset('string');
+	});
+});
+
 describe('assert style of test', function () {
 	it('should find subset', function () {
 		var assert = require('chai').assert;
