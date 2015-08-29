@@ -72,3 +72,7 @@ to contain subset
 */
 ```
 
+and with asset interface
+```js
+assert.containSubset({a: 1, b: 2}, {a: 1});
+```
