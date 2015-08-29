@@ -119,3 +119,10 @@ describe('circular objects', function() {
 		});
 	});
 });
+
+describe('assert style of test', function () {
+	it('should find subset', function () {
+		var assert = require('chai').assert;
+		assert.containSubset({a: 1, b: 2}, {a: 1});
+	});
+});
