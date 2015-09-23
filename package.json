@@ -4,7 +4,8 @@
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
-    "test": "istanbul cover _mocha -- test && cat ./coverage/lcov.info | coveralls"
+    "test": "istanbul cover _mocha",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -30,8 +31,9 @@
     "chai": "^3.2.0",
     "coveralls": "^2.11.3",
     "istanbul": "^0.3.17",
+    "jscs": "^2.1.1",
     "mocha": "^2.2.1",
     "mocha-eslint": "^1.0.0",
-    "mocha-jscs": "^1.2.0"
+    "mocha-jscs": "^3.0.0"
   }
 }

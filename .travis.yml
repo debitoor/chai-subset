@@ -5,3 +5,4 @@ node_js:
   - "0.12"
   - "0.10"
 sudo: false
+after_success: "npm run coveralls"
