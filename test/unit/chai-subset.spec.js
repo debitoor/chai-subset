@@ -140,3 +140,21 @@ describe('assert style of test', function () {
 		assert.containSubset({a: 1, b: 2}, {a: 1});
 	});
 });
+
+describe('object containing an array', function () {
+  it('should fail if expected is filled but actual is empty', function () {
+    expect({ anArray: ['1'] }).to.not.containSubset({ anArray: [] });
+  })
+
+  it('should fail if actual is empty but expected is filled', function () {
+    expect({ anArray: [] }).to.not.containSubset({ anArray: ['1'] });
+  })
+
+  it('should not fail if array contains the same elements', function () {
+    expect({ anArray: ['1'] }).to.containSubset({ anArray: ['1'] });
+  });
+
+  it('should not fail if both arrays are empty', function () {
+    expect({ anArray: [] }).to.containSubset({ anArray: [] });
+  });
+})
