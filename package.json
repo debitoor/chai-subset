@@ -13,6 +13,8 @@
   },
   "keywords": [
     "chai",
+    "chai-plugin",
+    "objects",
     "subset",
     "contains",
     "plugin",
