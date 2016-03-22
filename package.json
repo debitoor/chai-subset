@@ -37,5 +37,8 @@
     "mocha": "^2.2.1",
     "mocha-eslint": "^2.0.0",
     "mocha-jscs": "^4.0.0"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
