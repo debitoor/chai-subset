@@ -32,7 +32,7 @@
   "devDependencies": {
     "chai": "3.5.0",
     "coveralls": "2.11.12",
-    "istanbul": "0.4.4",
+    "istanbul": "0.4.5",
     "jscs": "3.0.7",
     "mocha": "3.0.2",
     "mocha-eslint": "3.0.1",
