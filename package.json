@@ -31,7 +31,7 @@
   "homepage": "https://github.com/debitoor/chai-subset",
   "devDependencies": {
     "chai": "3.5.0",
-    "coveralls": "2.11.13",
+    "coveralls": "2.11.14",
     "istanbul": "0.4.5",
     "jscs": "3.0.7",
     "mocha": "3.0.2",
