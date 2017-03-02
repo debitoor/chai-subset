@@ -1,7 +1,0 @@
-{
-  "disallowEmptyBlocks": true,
-  "validateIndentation": "\t",
-  "excludeFiles": [
-    "coverage/**"
-  ]
-}

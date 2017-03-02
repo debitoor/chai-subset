@@ -1,6 +1,6 @@
 {
   "name": "chai-subset",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
@@ -30,13 +30,12 @@
   },
   "homepage": "https://github.com/debitoor/chai-subset",
   "devDependencies": {
+    "@debitoor/eslint-config-debitoor": "1.2.0",
     "chai": "3.5.0",
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "istanbul": "0.4.5",
-    "jscs": "3.0.7",
     "mocha": "3.2.0",
-    "mocha-eslint": "3.0.1",
-    "mocha-jscs": "5.0.1"
+    "mocha-eslint": "3.0.1"
   },
   "files": [
     "lib"
