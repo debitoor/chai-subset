@@ -18,7 +18,13 @@
     "subset",
     "contains",
     "plugin",
-    "containSubset"
+    "containSubset",
+    "deep",
+    "like",
+    "match",
+    "similar",
+    "includes",
+    "superset"
   ],
   "author": "Andrii Shumada <eagleeyes91@gmail.com>",
   "contributors": [
