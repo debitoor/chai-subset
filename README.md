@@ -39,7 +39,14 @@ expect(obj).to.containSubset({
 		}
 	}
 });
-//or with 'not'
+
+// or using a compare function
+expect(obj).containSubset({
+	a: (expectedValue) => expectedValue,
+	c: (expectedValue) => expectedValue === 'd'
+})
+
+// or with 'not'
 expect(obj).to.not.containSubset({
 	g: 'whatever'
 });
