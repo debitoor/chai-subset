@@ -1,6 +1,6 @@
 {
   "name": "@thiscode/chai-subset",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
