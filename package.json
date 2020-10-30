@@ -1,15 +1,15 @@
 {
-  "name": "chai-subset",
+  "name": "@thiscode/chai-subset",
   "version": "1.6.0",
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
   "scripts": {
-    "test": "istanbul cover _mocha",
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/debitoor/chai-subset.git"
+    "url": "https://github.com/thiscode/chai-subset.git"
   },
   "keywords": [
     "chai",
@@ -28,7 +28,8 @@
   ],
   "author": "Andrii Shumada <eagleeyes91@gmail.com>",
   "contributors": [
-    "Robert Herhold <reherhold@gmail.com>"
+    "Robert Herhold <reherhold@gmail.com>",
+    "Thomas Miliopoulos <github@thiscode.com>"
   ],
   "license": "MIT",
   "bugs": {
