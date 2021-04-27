@@ -3,6 +3,7 @@
   "version": "1.6.0",
   "description": "Object properties matcher for Chai",
   "main": "lib/chai-subset.js",
+  "types": "./index.d.ts",
   "scripts": {
     "test": "istanbul cover _mocha",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
@@ -36,12 +37,13 @@
   },
   "homepage": "https://github.com/debitoor/chai-subset",
   "devDependencies": {
-    "@debitoor/eslint-config-debitoor": "1.2.0",
-    "chai": "3.5.0",
-    "coveralls": "2.11.16",
+    "@debitoor/eslint-config-debitoor": "^3.1.0",
+    "@types/chai": "^4.2.17",
+    "chai": "^4.3.4",
+    "coveralls": "^3.1.0",
     "istanbul": "0.4.5",
-    "mocha": "3.2.0",
-    "mocha-eslint": "3.0.1"
+    "mocha": "^8.3.2",
+    "mocha-eslint": "^7.0.0"
   },
   "files": [
     "lib"

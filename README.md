@@ -30,7 +30,7 @@ var obj = {
 		}
 	}
 };
-	
+
 expect(obj).to.containSubset({
 	a: 'b',
 	e: {
@@ -59,7 +59,7 @@ var list = [{a: 'a', b: 'b'}, {v: 'f', d: {z: 'g'}}];
 list.should.containSubset([{a:'a'}]); //Assertion error is not thrown
 list.should.containSubset([{a:'a',  b: 'b'}]); //Assertion error is not thrown
 
-list.should.containSubset([{a:'a', b: 'bd'}]); 
+list.should.containSubset([{a:'a', b: 'bd'}]);
 /*throws
 AssertionError: expected
 [
@@ -74,12 +74,12 @@ AssertionError: expected
         }
     }
 ]
-to contain subset 
+to contain subset
 [ { a: 'a', b: 'bd' } ]
 */
 ```
 
 and with `assert` interface
 ```js
-assert.containSubset({a: 1, b: 2}, {a: 1});
+assert.containSubset({ a: 1, b: 2}, {a: 1});
 ```
