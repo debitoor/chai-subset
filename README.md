@@ -2,7 +2,7 @@ chai-subset
 ===========
 
 > [!IMPORTANT]
-> **Deprecated!** This lib and repository is deprecated, as the functionality is not included in chai itself. See more [here](https://github.com/chaijs/chai/issues/1616#issuecomment-2111847895).
+> **Deprecated!** This library and repository are deprecated, as the functionality is not included in chai itself. See more [here](https://github.com/chaijs/chai/issues/1616#issuecomment-2111847895).
 
 "containSubset" object properties matcher for [Chai](http://chaijs.com/) assertion library
 
