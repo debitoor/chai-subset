@@ -1,5 +1,8 @@
-chai-subset [![npm version](https://badge.fury.io/js/chai-subset.svg)](https://badge.fury.io/js/chai-subset) [![Build Status](https://travis-ci.org/debitoor/chai-subset.svg?branch=master)](https://travis-ci.org/debitoor/chai-subset) [![devDependency Status](https://david-dm.org/debitoor/chai-subset/dev-status.svg)](https://david-dm.org/debitoor/chai-subset#info=devDependencies) [![Coverage Status](https://coveralls.io/repos/debitoor/chai-subset/badge.svg?service=github)](https://coveralls.io/github/debitoor/chai-subset) [![NSP Status](https://nodesecurity.io/orgs/debitoor/projects/eb6fec04-2b26-4462-b4ff-08d952da3065/badge)](https://nodesecurity.io/orgs/debitoor/projects/eb6fec04-2b26-4462-b4ff-08d952da3065)
+chai-subset
 ===========
+
+> [!IMPORTANT]
+> **Deprecated!** This lib and repository is deprecated, as the functionality is not included in chai itself. See more [here](https://github.com/chaijs/chai/issues/1616#issuecomment-2111847895).
 
 "containSubset" object properties matcher for [Chai](http://chaijs.com/) assertion library
 
