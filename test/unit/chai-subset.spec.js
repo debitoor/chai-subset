@@ -187,6 +187,26 @@ describe('comparison of dates', function() {
 	});
 });
 
+describe('comparison of urls', function() {
+	const URL = require('universal-url').URL;
+
+	it('should pass for the same url', function() {
+		expect(new URL('http://host/')).to.containSubset(new URL('http://host/'));
+	});
+
+	it('should pass for the same url if nested', function() {
+		expect({a: new URL('http://host/')}).to.containSubset({a: new URL('http://host/')});
+	});
+
+	it('should fail for a different url', function() {
+		expect(new URL('http://host1/')).to.not.containSubset(new URL('http://host2/'));
+	});
+
+	it('should fail for a different url if nested', function() {
+		expect({a: new URL('http://host1/')}).to.not.containSubset({a: new URL('http://host2/')});
+	});
+});
+
 describe('cyclic objects', () => {
 	it('should pass', () => {
 		const child = {};

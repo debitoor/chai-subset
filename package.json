@@ -41,7 +41,8 @@
     "coveralls": "2.11.16",
     "istanbul": "0.4.5",
     "mocha": "3.2.0",
-    "mocha-eslint": "3.0.1"
+    "mocha-eslint": "3.0.1",
+    "universal-url": "^1.0.0-alpha"
   },
   "files": [
     "lib"
